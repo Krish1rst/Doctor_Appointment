@@ -1,0 +1,128 @@
+/* antd override*/
+
+input {
+  border-radius: 0 !important;
+  border: 1px solid rgba(170, 167, 167, 0.671) !important;
+  height: 40px !important;
+}
+
+input:focus,
+.ant-picker {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 2px solid rgba(155, 153, 153, 0.904) !important;
+}
+
+
+label {
+  font-size: 16px !important;
+  color: black;
+  font-weight: 600;
+}
+
+.ant-form-item {
+  margin-bottom: 10px 0 !important;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}
+
+.ant-picker {
+  border-radius: 0 !important;
+  border: 1px solid rgba(170, 167, 167, 0.671) !important;
+  height: 40px !important;
+}
+
+/* common styling */
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.568);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  color: white;
+}
+
+.spinner-border {
+  height: 6rem !important;
+  width: 6rem !important;
+}
+
+.page-title {
+  font-size: 20px;
+  color: rgb(43, 42, 42);
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 20px;
+  color: rgb(105, 102, 102);
+  font-weight: bold;
+}
+
+
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+  margin: 5px;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.primary-button {
+  background-color: #005555 !important;
+  border-color: #005555 !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  font-size: 16px;
+  font-weight: 600;
+  width: max-content !important;
+}
+
+.primary-button:hover {
+  color: #fff !important;
+  background-color: #005555e1 !important;
+}
+
+.navigationlogin {
+  text-decoration: underline !important;
+  color: black !important;
+  font-size: 16px !important;
+}
+
+
+
+/* authentication pages*/
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005555;
+}
+
+.authentication-form {
+  width: 400px;
+}
+
+.authentication .card-title {
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  background-color: orangered;
+  color: #fff;
+  max-width: fit-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-radius: 0 0 0 10px;
+}
